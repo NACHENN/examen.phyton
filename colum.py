@@ -1,4 +1,4 @@
-from ponerficha import valoresFC
+
 
 nombre_jugador = input("Nombre del jugador : ")
 
@@ -16,8 +16,6 @@ for fila in tablero:
 filaB = 0
 columnaB = 0
 
-for i in range(0,len(tablero)):
-    for j in range(0,len(tablero)):
-        valoresFC(fila=filaB,columna=columnaB)
+
         
 
